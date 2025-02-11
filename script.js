@@ -27,7 +27,7 @@ console.log(object2);
 
 
 /////////////////////////////////task 2 ///////////////////////////////////////////
-const newObject = { object1, object2 };
+const newObject = { ...object1, ...object2 };
 console.log(newObject);
 
 
